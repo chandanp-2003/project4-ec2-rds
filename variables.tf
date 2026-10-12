@@ -51,3 +51,8 @@ variable "db_password" {
   description = "RDS master password, min 8 chars"
   sensitive   = true
 }
+
+variable "my_ip" {
+  type        = string
+  description = "Your public IP in CIDR form"
+}
